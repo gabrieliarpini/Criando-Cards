@@ -27,8 +27,8 @@
 
   // workbench
   "workbench.editor.enablePreview": false,
-  "workbench.iconTheme": "vs-seti",
-  "workbench.colorTheme": "Default Dark Modern",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Dracula Theme",
 
   // prettier
   "editor.defaultFormatter": "esbenp.prettier-vscode",
@@ -46,7 +46,10 @@
   },
   "terminal.integrated.defaultProfile.windows": "Git Bash",
   "window.zoomLevel": 1,
-  "workbench.activityBar.location": "hidden",
+  "workbench.activityBar.location": "default",
   "zenMode.showTabs": "single",
-  "liveServer.settings.port": 5501
+  "liveServer.settings.port": 5501,
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  }
 }
